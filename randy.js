@@ -1,7 +1,7 @@
 var response
-  =responses[Math.floor(Math.random()*responses.length)];
+  =dice[Math.floor(Math.random()*responses.length)];
 gameOutput.html(response);      
 } 
 
 
-dice
+dice = ["1","2","3","4","5","6"]
