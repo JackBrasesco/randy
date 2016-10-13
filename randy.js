@@ -1,5 +1,5 @@
 var response
-  =dice[Math.floor(Math.random()*dice.length)];
+  = dice[Math.floor(Math.random()*dice.length)];
 gameOutput.html(response);      
 
 
