@@ -59,12 +59,11 @@ p1display.html(response);
 
   p1list.push(response);
   var afinal = parseInt(p1list);
-  var add = aafinal.slice(1,5).reduce(addFunction,0);
+  var add = aafinal.slice(0,5).reduce(addFunction,0);
   function addFunction(a,b) {
     return a + b;
   }
  
   aafinal.push(afinal);
-  console.log(add);
 p1added.html(add);
 })
