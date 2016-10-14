@@ -60,6 +60,9 @@ p1display.html(response);
   var afinal = parseInt(p1list)
   aafinal = []
   var aaafinal = aafinal.reduce(add,0)
+  function add(a,b) {
+    
+  }
 
   aafinal.push(afinal)
   console.log(aafinal)
