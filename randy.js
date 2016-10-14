@@ -7,6 +7,7 @@ $(function() {
   var p2roll = $("#p2roll")
   var p1added = $("#added1")
   var aafinal = []
+  var 
 
 
   p1guess.keydown(function(enter) {
@@ -27,21 +28,21 @@ $(function() {
 
   p2roll.click(function() {
     var dice2 = ["1","2","3","4","5","6"]
-    var response
-    = dice2[Math.floor(Math.random()*dice2.length)];
-    p2display.html(response)
-    var response2
-    = dice2[Math.floor(Math.random()*dice2.length)];
-    p2display.html(response)
-    var response3
-    = dice2[Math.floor(Math.random()*dice2.length)];
-    p2display.html(response)
-    var response4
-    = dice2[Math.floor(Math.random()*dice2.length)];
-    p2display.html(response)
-    var response5
-    = dice2[Math.floor(Math.random()*dice2.length)];
-    p2display.html(response);
+
+    var response2 = dice2[Math.floor(Math.random()*dice2.length)];
+    p1display.html(response2);
+    p2list = [];
+
+    p1list.push(response);
+    var afinal = parseInt(p1list);
+    var add = aafinal.slice(0,5).reduce(addFunction,0);
+    function addFunction(a,b) {
+      return a + b;
+    }
+    aafinal.push(afinal);
+    console.log(add)
+    var p1finaloutput = ""+add;
+    p1display.html(add);
   });
 
   p1roll.click(function() {
