@@ -54,20 +54,18 @@ var dice1 = ["1","2","3","4","5","6"]
 var response
 = dice1[Math.floor(Math.random()*dice1.length)];
 p1display.html(response);
-  p1list = []
+  p1list = [];
 
   p1list.push(response);
-  var afinal = parseInt(p1list)
-  aafinal = []
-  var add = aafinal.slice(1,5).reduce(addFunction,0)
-  
+  var afinal = parseInt(p1list);
+  aafinal = [];
+  var add = aafinal.slice(1,5).reduce(addFunction,0);
+  console.log('h
   function addFunction(a,b) {
-    console.log("hello")
-
     return a + b;
   }
  
-  aafinal.push(afinal)
-  console.log(add)
-p1added.html(add)
+  aafinal.push(afinal);
+  console.log(add);
+p1added.html(add);
 })
