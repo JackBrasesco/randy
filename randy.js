@@ -59,6 +59,7 @@ $(function() {
     }
     aafinal.push(afinal);
     console.log(add)
-    $("#added1").text("add");
+    var p1finaloutput = ""+add
+    $("#added1").html("add");
   });
 });
