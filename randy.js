@@ -3,6 +3,8 @@ var p1guess = $("#p1guess")
 var p2guess = $("#p2guess")
 var p1display = $("#display1")
 var p2display = $("#display2")
+var p1roll = $("#p1roll")
+var p2roll = $("#p2roll")
 
 
 p1guess.keydown(function(enter) {
@@ -21,7 +23,7 @@ p2guess.keydown(function(enter) {
   }
 })
 
-
+p2roll.click
 var dice1 = ["1","2","3","4","5","6"]
 
 
