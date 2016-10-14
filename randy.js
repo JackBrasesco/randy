@@ -63,9 +63,8 @@ p1display.html(response);
   function addFunction(a,b) {
     return a + b;
   }
- 
   aafinal.push(afinal);
   console.log(add)
 $("#added1").html("add");
-  }
+  console.log("hi")
 })
