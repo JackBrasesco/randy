@@ -42,17 +42,13 @@ $(function() {
     var response5
     = dice2[Math.floor(Math.random()*dice2.length)];
     p2display.html(response);
-
-
-
   });
 
   p1roll.click(function() {
-  var dice1 = ["1","2","3","4","5","6"]
+    var dice1 = ["1","2","3","4","5","6"]
 
-  var response
-  = dice1[Math.floor(Math.random()*dice1.length)];
-  p1display.html(response);
+    var response = dice1[Math.floor(Math.random()*dice1.length)];
+    p1display.html(response);
     p1list = [];
 
     p1list.push(response);
@@ -63,6 +59,6 @@ $(function() {
     }
     aafinal.push(afinal);
     console.log(add)
-  $("#added1").html("add");
-  })
+    $("#added1").text("add");
+  });
 });
