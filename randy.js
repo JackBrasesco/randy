@@ -39,10 +39,10 @@ $(function() {
     function addFunction2(a,b) {
       return a + b;
     }
-    aafinal.push(afinal2);
+    aa2final.push(afinal2);
     console.log(add2)
-    var p1finaloutput = ""+add2;
-    p1display.html(add2);
+    var p2finaloutput = ""+add2;
+    p2display.html(add2);
   });
 
   p1roll.click(function() {
