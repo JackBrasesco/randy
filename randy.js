@@ -2,6 +2,7 @@
 var p1guess = $("#p1guess")
 var p2guess = $("#p2guess")
 var p1display = $("#display1")
+var p2display = $
 
 
 p1guess.keydown(function(enter) {
@@ -21,8 +22,9 @@ p2guess.keydown(function(enter) {
 })
 
 
-var dice = ["1","2","3","4","5","6"]
+var dice1 = ["1","2","3","4","5","6"]
+
 
 var response
-= dice[Math.floor(Math.random()*dice.length)];
-gameOutput.html(response);     
+= dice1[Math.floor(Math.random()*dice1.length)];
+p1display.html(response);     
