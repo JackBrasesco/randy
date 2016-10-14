@@ -6,6 +6,7 @@ var p2display = $("#display2")
 var p1roll = $("#p1roll")
 var p2roll = $("#p2roll")
 var p1added = $("#added1")
+var aafinal = []
 
 
 p1guess.keydown(function(enter) {
@@ -58,9 +59,7 @@ p1display.html(response);
 
   p1list.push(response);
   var afinal = parseInt(p1list);
-  aafinal = [];
   var add = aafinal.slice(1,5).reduce(addFunction,0);
-  console.log('h
   function addFunction(a,b) {
     return a + b;
   }
