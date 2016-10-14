@@ -65,8 +65,9 @@ p1display.html(response);
   }
  
   aafinal.push(afinal);
-  setTimeout(runthing1,200)
+  console.log(add)
+  setTimeout(runthing1(),20)
   function runthing1() {
-p1added.html(add);
+$("#ad.html(add);
   }
 })
