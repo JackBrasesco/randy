@@ -1,12 +1,13 @@
 //var response
 //  = dice[Math.floor(Math.random()*dice.length)];
 //gameOutput.html(response);      
-var p1
-$("#p1guess").keydown(function(enter) {
+var p1guess = $("#p1guess")
+
+p1guess.keydown(function(enter) {
   if (enter.keyCode == 13){
-    
+    var m
   
-  
+  p1guess.val("")
   }
 })
 
