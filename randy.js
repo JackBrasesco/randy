@@ -63,10 +63,10 @@ p1display.html(response);
   function add(a,b) {
     return a + b;
   }
-  console.log
+  console.log(aaafinal)
 
   aafinal.push(afinal)
   console.log(aafinal)
-  var final = (aafinal.length(1) + aafinal.length(2) + aafinal.length(3) + aafinal.length(4) + aafinal.length(5))
+//  var final = (aafinal.length(1) + aafinal.length(2) + aafinal.length(3) + aafinal.length(4) + aafinal.length(5))
 
 })
