@@ -5,6 +5,7 @@ var p1display = $("#display1")
 var p2display = $("#display2")
 var p1roll = $("#p1roll")
 var p2roll = $("#p2roll")
+var p1added = $("#added1")
 
 
 p1guess.keydown(function(enter) {
@@ -66,6 +67,6 @@ p1display.html(response);
   }
  
   aafinal.push(afinal)
-  console.log(aafinal)
-
+  console.log(add)
+p1added.html(add)
 })
