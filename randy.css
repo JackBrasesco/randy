@@ -14,3 +14,7 @@ body {
   text-align: center;
   font-size; 100px;
 }
+
+#display2 {
+  display: inline;
+}

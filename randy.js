@@ -33,5 +33,5 @@ var dice2 = ["1","2","3","4","5","6"]
 
 
 var response
-= dice1[Math.floor(Math.random()*dice1.length)];
-p1display.html(response)
+= dice2[Math.floor(Math.random()*dice2.length)];
+p2display.html(response)
