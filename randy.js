@@ -23,7 +23,11 @@ p2guess.keydown(function(enter) {
   }
 })
 
-p2roll.click
+p2roll.click(function() {
+  
+  
+  
+}
 var dice1 = ["1","2","3","4","5","6"]
 
 
