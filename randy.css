@@ -2,3 +2,6 @@
   display: block;
   position: relative;
 }
+#body {
+  background-color: cornsilk;
+}
