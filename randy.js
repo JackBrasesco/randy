@@ -57,6 +57,7 @@ p1display.html(response);
   p1list = []
 
   p1list.push(response);
+  var afinal = parseInt(p1list)
   var final = (p1list.length(1), p1list.length(2), p1list.length(3), p2list.length(4), )
 
 })
