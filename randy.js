@@ -46,10 +46,16 @@ p2roll.click(function() {
   
   
 })
+
+p1roll.click(function() {
 var dice1 = ["1","2","3","4","5","6"]
 
 
 var response
 = dice1[Math.floor(Math.random()*dice1.length)];
-p1display.html(response);   
+p1display.html(response);
+  p1list.push(respone)
+  
+  p1list = []
 
+})
