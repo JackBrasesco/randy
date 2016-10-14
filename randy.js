@@ -30,10 +30,22 @@ p2roll.click(function() {
   var response
   = dice2[Math.floor(Math.random()*dice2.length)];
   p2display.html(response)
+  var response2
+  = dice2[Math.floor(Math.random()*dice2.length)];
+  p2display.html(response)
+  var response3
+  = dice2[Math.floor(Math.random()*dice2.length)];
+  p2display.html(response)
+  var response4
+  = dice2[Math.floor(Math.random()*dice2.length)];
+  p2display.html(response)
+  var response5
+  = dice2[Math.floor(Math.random()*dice2.length)];
+  p2display.html(response)
   
   
   
-}
+})
 var dice1 = ["1","2","3","4","5","6"]
 
 
@@ -41,9 +53,3 @@ var response
 = dice1[Math.floor(Math.random()*dice1.length)];
 p1display.html(response);   
 
-var dice2 = ["1","2","3","4","5","6"]
-
-
-var response
-= dice2[Math.floor(Math.random()*dice2.length)];
-p2display.html(response)
