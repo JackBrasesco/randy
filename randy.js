@@ -65,6 +65,8 @@ p1display.html(response);
   }
  
   aafinal.push(afinal);
-  
+  setTimeout(runthing1,2000)
+  function runthing1 {
 p1added.html(add);
+  }
 })
