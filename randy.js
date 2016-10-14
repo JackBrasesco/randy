@@ -61,8 +61,9 @@ p1display.html(response);
   aafinal = []
   var aaafinal = aafinal.reduce(add,0)
   function add(a,b) {
-    
+    return a + b;
   }
+  console.log
 
   aafinal.push(afinal)
   console.log(aafinal)
