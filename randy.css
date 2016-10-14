@@ -5,3 +5,7 @@
 body {
   background-color: cornsilk;
 }
+
+.p2.stuff {
+  display: block;
+}
