@@ -62,5 +62,6 @@ $(function() {
     console.log(add)
     var p1finaloutput = ""+add;
     p1display.html(add);
+    var distance1 = 
   });
 });
