@@ -1,6 +1,7 @@
  
 var p1guess = $("#p1guess")
 var p2guess = $("#p2guess")
+var p1display = $("#display1")
 
 
 p1guess.keydown(function(enter) {
