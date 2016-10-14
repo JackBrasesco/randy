@@ -60,6 +60,6 @@ $(function() {
     aafinal.push(afinal);
     console.log(add)
     var p1finaloutput = ""+add;
-    $("#added1").html(add);
+    p1display.html(add);
   });
 });
