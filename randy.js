@@ -15,7 +15,7 @@ $(function() {
     p1guess.val("")
     console.log(number1)
     }
-  })
+  });
 
   p2guess.keydown(function(enter) {
     if (enter.keyCode == 13){
@@ -23,12 +23,10 @@ $(function() {
       p2guess.val("")
       console.log(number2)
     }
-  })
+  });
 
   p2roll.click(function() {
     var dice2 = ["1","2","3","4","5","6"]
-
-
     var response
     = dice2[Math.floor(Math.random()*dice2.length)];
     p2display.html(response)
@@ -43,11 +41,11 @@ $(function() {
     p2display.html(response)
     var response5
     = dice2[Math.floor(Math.random()*dice2.length)];
-    p2display.html(response)
+    p2display.html(response);
 
 
 
-  })
+  });
 
   p1roll.click(function() {
   var dice1 = ["1","2","3","4","5","6"]
