@@ -24,6 +24,12 @@ p2guess.keydown(function(enter) {
 })
 
 p2roll.click(function() {
+  var dice2 = ["1","2","3","4","5","6"]
+
+
+  var response
+  = dice2[Math.floor(Math.random()*dice2.length)];
+  p2display.html(response)
   
   
   
