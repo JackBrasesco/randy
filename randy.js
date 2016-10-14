@@ -59,10 +59,8 @@ p1display.html(response);
   p1list.push(response);
   var afinal = parseInt(p1list)
   aafinal = []
-  var aaafinal = aafinal.slice(""0":")
  
   aafinal.push(afinal)
   console.log(aafinal)
-//  var final = (aafinal.length(1) + aafinal.length(2) + aafinal.length(3) + aafinal.length(4) + aafinal.length(5))
 
 })
