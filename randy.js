@@ -62,6 +62,7 @@ $(function() {
     console.log(add)
     var p1finaloutput = ""+add;
     p1display.html(add);
-    var distance1 = 
+    var distance1 = parseInt(p1guess.val())
+    console.log(distance1)
   });
 });
