@@ -32,9 +32,13 @@ body {
 }
 
 #rules {
-  margin-top: 500;
+  top: 500;
 }
 
 #song {
   display: none;
+}
+
+#happy {
+  margin-top: 450;
 }
