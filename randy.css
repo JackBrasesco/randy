@@ -24,10 +24,11 @@ body {
 
 #p2guess {
   margin-left: 400;
-  margin: 50px;
+  margin-top: 50px;
 }
 #p1guess {
   margin-left: 200;
+  margin-top: 50px;
 }
 
 #rules {
