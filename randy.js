@@ -14,7 +14,7 @@ $(function() {
     if (enter.keyCode == 13){
       var number1 = p1guess.val()
     p1guess.val("")
-    console.log(number1)
+    p1guess.attr
     }
   });
 
