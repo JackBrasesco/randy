@@ -13,7 +13,8 @@ $(function() {
   p1guess.keydown(function(enter) {
     if (enter.keyCode == 13){
       var number1 = p1guess.val()
-    p1guess.attr("value",number1)
+    p1guess.attr("value", number1)
+    p1guess.val("")
     }
   });
 
