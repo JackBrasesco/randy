@@ -8,9 +8,9 @@ $(function() {
   var p1added = $("#added1")
   var aafinal = []
   var aa2final = []
-
   function disco() {
     $("body").css({"background-color: blue"})
+    $("body").cs
   }
 
   p1guess.keydown(function(enter) {
