@@ -8,11 +8,12 @@ $(function() {
   var p1added = $("#added1")
   var aafinal = []
   var aa2final = []
+  disco()
   function disco() {
-    $("body").css({"background-color: blue"})
-    $("body").css({"background-color: green"})
-    $("body").css({"background-color: yellow"})
-    $("body").css({"background-color: red"})
+    $("body").css({"background-color": "blue"})
+    $("body").css({"background-color": "green"})
+    $("body").css({"background-color": "yellow"})
+    $("body").css({"background-color": "red"})
     disco()
   }
 
