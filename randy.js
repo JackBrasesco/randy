@@ -12,7 +12,8 @@ $(function() {
     $("body").css({"background-color: blue"})
     $("body").css({"background-color: green"})
     $("body").css({"background-color: yellow"})
-    $("body").css({"backg
+    $("body").css({"background-color: red"})
+    disco()
   }
 
   p1guess.keydown(function(enter) {

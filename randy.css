@@ -2,8 +2,8 @@
   display: inline;
   position: relative;
 }
-body {
-  background-color: cornsilk;
+#body {
+  background-color:cornsilk;
 }
 
 .p2stuff {
