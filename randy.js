@@ -10,12 +10,9 @@ $(function() {
   var aa2final = []
   disco()
   
-  var clist = ["blue","green","yellow",
+  var clist = ["blue","green","yellow","red","purple","Pink"]
   function disco() {
-    $("body").css({"background": "blue"})
-    $("body").css({"background": "green"})
-    $("body").css({"background": "yellow"})
-    $("body").css({"background": "red"})
+    var color = clist[Math.floor(Math.random()*dice2.length)];
     disco()
   }
 
