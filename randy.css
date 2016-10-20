@@ -17,7 +17,7 @@
   background-color: antiquewhite;
   border-radius: 20px;
   font-family: impact;
-  outline-color: aqua;
+  text-shadow: 2px 2px #ff0000;
 }
 
 #display2 {

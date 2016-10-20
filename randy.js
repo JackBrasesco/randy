@@ -9,6 +9,8 @@ $(function() {
   var aafinal = []
   var aa2final = []
   disco()
+  
+  var clist = ["blue","green","yellow",
   function disco() {
     $("body").css({"background": "blue"})
     $("body").css({"background": "green"})
