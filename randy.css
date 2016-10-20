@@ -3,7 +3,7 @@
   position: relative;
 }
 #body {
-  background-color:cornsilk;
+  background-color:;
 }
 
 .p2stuff {
@@ -16,7 +16,8 @@
   border: 3px solid bisque;
   background-color: antiquewhite;
   border-radius: 20px;
-  font-family: cursive
+  font-family: impact;
+  outline-color: aqua;
 }
 
 #display2 {

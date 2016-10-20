@@ -10,10 +10,10 @@ $(function() {
   var aa2final = []
   disco()
   function disco() {
-    $("body").css({"background-color": "blue"})
-    $("body").css({"background-color": "green"})
-    $("body").css({"background-color": "yellow"})
-    $("body").css({"background-color": "red"})
+    $("body").css({"background": "blue"})
+    $("body").css({"background": "green"})
+    $("body").css({"background": "yellow"})
+    $("body").css({"background": "red"})
     disco()
   }
 
