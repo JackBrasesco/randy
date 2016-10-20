@@ -9,6 +9,7 @@ $(function() {
   var aafinal = []
   var aa2final = []
 
+  
 
   p1guess.keydown(function(enter) {
     if (enter.keyCode == 13){
