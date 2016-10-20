@@ -10,7 +10,7 @@ $(function() {
   var aa2final = []
 
   function disco() {
-    $("body
+    $("body").css({"background-color: blue"})
   }
 
   p1guess.keydown(function(enter) {
