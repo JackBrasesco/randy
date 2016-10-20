@@ -9,7 +9,9 @@ $(function() {
   var aafinal = []
   var aa2final = []
 
-  
+  function disco() {
+    $("body
+  }
 
   p1guess.keydown(function(enter) {
     if (enter.keyCode == 13){
